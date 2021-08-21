@@ -112,6 +112,8 @@ namespace dragonBones {
         }
 
         protected _removeDisplay(): void {
+            if (null == this._renderDisplay) return;
+            if (null == this._renderDisplay.parent) return;
             this._renderDisplay.parent.remove(this._renderDisplay);
         }
 

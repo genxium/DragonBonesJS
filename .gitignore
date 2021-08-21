@@ -5,6 +5,9 @@ bin/
 node_modules/
 modules/
 .cache/
+out
+out/*
+**/out/*
 
 pids
 logs

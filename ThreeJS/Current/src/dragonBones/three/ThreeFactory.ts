@@ -45,7 +45,7 @@ namespace dragonBones {
          */
         public static readonly POOL_TYPE_FACE3: string = "POOL_TYPE_FACE3";
 
-        private static readonly _emptyMaterial: THREE.Material = new THREE.MeshBasicMaterial();
+        private static readonly _emptyMaterial: THREE.MeshBasicMaterial = new THREE.MeshBasicMaterial();
         private static readonly _pools: Map<Array<any>> = {};
         private static _dragonBonesInstance: DragonBones = null as any;
         private static _factory: ThreeFactory = null as any;
