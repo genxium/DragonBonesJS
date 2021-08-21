@@ -10,9 +10,13 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "@types/three": "^0.89.12",
     "anywhere": "^1.4.0",
     "copyfiles": "^1.2.0",
-    "typescript": "^2.4.2"
+    "@types/three": "^0.92.23",
+    "typescript": "^3.1.1",
+    "tsc": "^2.0.3"
+  },
+  "dependencies": {
+    "dragonbones-js": "file:../../DragonBones"
   }
 }
